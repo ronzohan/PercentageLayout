@@ -33,6 +33,10 @@ import SwiftUI
 public struct PercentageHStackLayout: Layout {
     let spacing: CGFloat
 
+    public init(spacing: CGFloat = 10) {
+        self.spacing = spacing
+    }
+
     private func currentSize(of subview: LayoutSubview,
                              in subviews: LayoutSubviews,
                              proposal: ProposedViewSize) -> CGSize {
