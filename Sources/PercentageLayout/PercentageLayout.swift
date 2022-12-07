@@ -30,7 +30,7 @@ import SwiftUI
 ///
 /// >If the `widthPercent` is assigned to a value greater than 1, it will be assumed to  fill
 /// the space remaining
-public struct PercentageHStackLayout: Layout {
+public struct PercentageHStack: Layout {
     let spacing: CGFloat
 
     public init(spacing: CGFloat = 10) {
