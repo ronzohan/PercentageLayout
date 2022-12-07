@@ -3,10 +3,9 @@
 ## Requirements
 - **iOS 16 or above**
 ## Introduction
-`PercentageLayout` is a library that provides the layout `PercentageHStack
-` that can assign its subviews a percentage of its total width.
+`PercentageLayout` is a library that provides the layout `PercentageHStack` that can assign its subviews a percentage of its total width.
 
-This library uses the new `Layout` Protocol which was introduced on iOS 16. If you want to know more about the `Layout` protocol, you can watch this wwdc session https://developer.apple.com/videos/play/wwdc2022/10056/
+This library uses the new `Layout` Protocol which was introduced on iOS 16. If you want to know more about the `Layout` protocol, you can watch this WWDC session https://developer.apple.com/videos/play/wwdc2022/10056/
 
 ## Usage
 The way the layout can determine how much space to take up is to use the `widthPercent(CGFloat)` function on the subviews of the `PercentageHStackLayout`.
